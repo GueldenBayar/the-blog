@@ -1,13 +1,17 @@
+import {useState} from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Main from "./Main";
 import Navbar from "./Navbar";
+import mockData from "./mockData.json";
 
 function App() {
+  const [posts,setPosts] = useState(mockData.items);
+
   return (
     <>
       <Navbar></Navbar>
-      <Main> </Main>
+      <Main posts={posts}></Main>
     </>
   );
 }
