@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import CardPost from "./CardPost"
 
 
+
 export default function RecentPosts({posts}) {
     //console.log(posts)
     //creates a new array
@@ -56,3 +57,4 @@ export default function RecentPosts({posts}) {
        </> 
     );
 }
+
