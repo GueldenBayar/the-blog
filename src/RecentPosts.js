@@ -20,9 +20,9 @@ export default function RecentPosts({posts}) {
        <> 
        <section className="col-5">
                 <ul>
-                    // maps over the post, compares the posts update date with 
-                    // all dates in the array cPosts, if later add a 1 to the place
-                    // if place is lower 5 (1-4 newesrt entries), cardPost is returned
+                    {/* maps over the post, compares the posts update date with 
+                    all dates in the array cPosts, if later add a 1 to the place
+                    if place is lower 5 (1-4 newesrt entries), cardPost is returned */}
                     {posts.map(post => {
                         let d1 = post.sys.updatedAt;
                         let place = 1;
@@ -45,7 +45,7 @@ export default function RecentPosts({posts}) {
                                 />
                             </>
                         )
-                        else return 
+                        
                     })}
                 </ul>
             {/* // Content: e.g. list of four most recent entries in database */}
