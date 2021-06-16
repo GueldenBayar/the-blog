@@ -1,11 +1,14 @@
 import Map from "./Map";
+
 import {useParams} from "react-router-dom"
 import "./FullPost.css";
 
-export default function FullPost({posts}) {
-const {id} = useParams();
-const post=posts.filter(post => post.sys.id===id)
-console.log(post)
+
+export default function FullPost({ posts }) {
+  const { id } = useParams();
+  const post = posts.filter((post) => post.sys.id === id);
+  console.log(post);
+
 
 return (
        <> 
@@ -24,8 +27,9 @@ return (
             {/* // Content: e.g. list of four most recent entries in database */}
         </section>
         <section className="col-7">
-            <Map></Map>
+            <Map posts={post}></Map>
         </section>
        </> 
     );
 }
+
