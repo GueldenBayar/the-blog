@@ -16,7 +16,7 @@ export default function RecentPosts({ posts }) {
   //return of the component
   return (
     <>
-      <section className="col-5">
+      <section className="col-5 content-container-custom">
         <ul>
           {/* maps over the post, compares the posts update date with 
                     all dates in the array cPosts, if later add a 1 to the place

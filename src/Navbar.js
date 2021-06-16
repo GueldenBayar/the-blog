@@ -15,8 +15,8 @@ export default function Navbar({ fetchData }) {
     fetchData(e.target.searchInput.value);
   };
   return (
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header className="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container-custom">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             PingPong Locator
