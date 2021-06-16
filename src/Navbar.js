@@ -21,7 +21,7 @@ export default function Navbar({ fetchData }) {
     console.log(e.target.value);
     console.log(e.target.searchInput.value);
     fetchData(e.target.searchInput.value, selectedQueryOption);
-    history.push(`/${e.target.options.value}`);
+    //history.push(`/${e.target.options.value}`);
   };
   return (
     <header className="row">
