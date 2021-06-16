@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import Map from "./Map";
 import SummarizedPost from "./SummarizedPost";
 import { Link } from "react-router-dom";
@@ -57,4 +57,5 @@ export default function RecentPosts({posts}) {
        </> 
     );
 }
+
 

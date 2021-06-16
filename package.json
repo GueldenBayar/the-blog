@@ -15,6 +15,10 @@
     "react-leaflet": ">=3.1.0 <3.2.0 || ^3.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+<<<<<<< HEAD
+    "toast-me": "^1.3.5",
+=======
+>>>>>>> main
     "web-vitals": "^1.1.2"
   },
   "scripts": {
