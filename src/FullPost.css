@@ -12,3 +12,33 @@
     overflow-y: scroll;
     scrollbar-width: 20px;
   } 
+
+  .lightGreen {
+    background-color: #9cee9c;
+    border-radius: 5px;
+    height: 100px;
+    margin: 0px 0px 5px 0px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .darkGreen {
+    background-color: #3ca34a;
+    border-radius: 5px;
+    height: 100px;
+    margin: 0px 0px 5px 0px;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .darkGreen1 {
+    background-color: #3ca34a;
+    border-radius: 5px;
+    height: 500px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 80px;
+    height: 80px; 
+  }

@@ -1,0 +1,21 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/CardPost.css":
+false,
+
+/***/ "./src/CardPost.css":
+false,
+
+/***/ "./src/CardPost.js":
+/*!*************************!*\
+  !*** ./src/CardPost.js ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/joachim/Documents/Bootcamp/Exercises/the-blog/src/CardPost.js: Unexpected token (13:158)\n\n\u001b[0m \u001b[90m 11 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"cardPost\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m         \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mp\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"title\"\u001b[39m style\u001b[33m=\u001b[39m{{ textDecoration\u001b[33m:\u001b[39m \u001b[32m'underline'\u001b[39m\u001b[33m,\u001b[39m color\u001b[33m:\u001b[39m \u001b[32m'white'\u001b[39m\u001b[33m,\u001b[39m fontStyle\u001b[33m:\u001b[39m \u001b[32m\"bold\"\u001b[39m\u001b[33m,\u001b[39m fontWeight\u001b[33m:\u001b[39m \u001b[32m\"bold\"\u001b[39m\u001b[33m,\u001b[39m fontStyle\u001b[33m:\u001b[39m \u001b[32m\"italic\"\u001b[39m\u001b[33m,\u001b[39m fontSize\u001b[33m:\u001b[39m  }}\u001b[33m>\u001b[39m{props\u001b[33m.\u001b[39mtitle}\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                                                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m           \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m style\u001b[33m=\u001b[39m{{minHeight\u001b[33m:\u001b[39m \u001b[32m'50px'\u001b[39m}}\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mp\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"desc\"\u001b[39m \u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33mLink\u001b[39m to\u001b[33m=\u001b[39m{\u001b[32m`/post/${props.ids}`\u001b[39m} style\u001b[33m=\u001b[39m{{ textDecoration\u001b[33m:\u001b[39m \u001b[32m'none'\u001b[39m\u001b[33m,\u001b[39m color\u001b[33m:\u001b[39m \u001b[32m'black'\u001b[39m }}\u001b[33m>\u001b[39m{subS1} \u001b[33m...\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mLink\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m           \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at Object._raise (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:810:17)\n    at Object.raiseWithData (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:803:17)\n    at Object.raise (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:764:17)\n    at Object.unexpected (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:9980:16)\n    at Object.parseExprAtom (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:11382:20)\n    at Object.parseExprAtom (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:5300:20)\n    at Object.parseExprSubscripts (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:10954:23)\n    at Object.parseUpdate (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:10934:21)\n    at Object.parseMaybeUnary (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:10912:23)\n    at Object.parseExprOps (/home/joachim/Documents/Bootcamp/Exercises/the-blog/node_modules/@babel/parser/lib/index.js:10769:23)");
+
+/***/ })
+
+})
+//# sourceMappingURL=main.948aa7c99602f95605ba.hot-update.js.map
