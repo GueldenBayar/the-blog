@@ -56,6 +56,7 @@ const Map = ({ posts, searchQuery }) => {
       posts.forEach((post) => {
         if (post.fields.location?.lat) {
           setMapCenter([post.fields.location.lat, post.fields.location.lon]);
+          setZoom(16);
         } else {
           getCurrentLocation();
           toast("No coordinates for blog post, showing tables in your area");
@@ -92,7 +93,6 @@ const Map = ({ posts, searchQuery }) => {
     } else if (path.includes("post")) {
       // if in single post view, use post location
       getPostLocation(posts);
-      setZoom(16);
     } else if (path.includes("search")) {
       // if in searcg view, use search query location
       getSearchLocation(searchQuery);
@@ -100,7 +100,7 @@ const Map = ({ posts, searchQuery }) => {
   }, [getCurrentLocation, getSearchLocation, getPostLocation]);
 
   return (
-    <>
+    <div className="container-fluid p-2">
       {mapCenter && (
         <MapContainer center={mapCenter} zoom={zoom} scrollWheelZoom={false}>
           <TileLayer
@@ -113,7 +113,7 @@ const Map = ({ posts, searchQuery }) => {
           {posts && renderMarkers(posts)}
         </MapContainer>
       )}
-    </>
+    </div>
   );
 };
 

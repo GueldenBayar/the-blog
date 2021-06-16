@@ -24,10 +24,10 @@ export default function Navbar({ fetchData }) {
     history.push(`/${e.target.options.value}`);
   };
   return (
-    <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+    <header className="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
             PingPong Locator
           </a>
 

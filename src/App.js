@@ -43,10 +43,10 @@ function App() {
 
   //console.log(posts);
   return (
-    <>
+    <div className="container-md">
       <Navbar fetchData={fetchData}></Navbar>
       {!isFetching && <Main posts={posts}></Main>}
-    </>
+    </div>
   );
 }
 
