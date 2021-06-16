@@ -1,4 +1,5 @@
-import {useState} from "react";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import logo from "./logo.svg";
 import "./App.css";
 import Main from "./Main";
@@ -6,7 +7,7 @@ import Navbar from "./Navbar";
 import mockData from "./mockData.json";
 
 function App() {
-  const [posts,setPosts] = useState(mockData.items);
+  const [posts, setPosts] = useState(mockData.items);
 
   return (
     <>
