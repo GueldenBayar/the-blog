@@ -20,13 +20,13 @@ function App() {
   const fetchData = useCallback(async (queryParameter) => {
     let fetchParameter;
     queryParameter
-      ? (fetchParameter = queryParameter)
-      : (fetchParameter = "entries?");
+      ? (fetchParameter = `&query=${queryParameter}`)
+      : (fetchParameter = "");
 
     try {
       setIsFetching(true);
       const retrievedData = await axios.get(
-        `${REACT_APP_CONTENTFUL_URL}/spaces/${REACT_APP_CONTENTFUL_SPACE_ID}/${fetchParameter}access_token=${REACT_APP_CONTENTFUL_KEY_ACCESS_TOKEN}`
+        `${REACT_APP_CONTENTFUL_URL}/spaces/${REACT_APP_CONTENTFUL_SPACE_ID}/entries?access_token=${REACT_APP_CONTENTFUL_KEY_ACCESS_TOKEN}${fetchParameter}`
       );
       setPosts(retrievedData.data.items);
       setIsFetching(false);
@@ -35,13 +35,13 @@ function App() {
     }
   }, []);
   useEffect(() => {
-    fetchData("entries?");
+    fetchData();
   }, [fetchData]);
 
   //console.log(posts);
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar fetchData={fetchData}></Navbar>
       {!isFetching && <Main posts={posts}></Main>}
     </>
   );
