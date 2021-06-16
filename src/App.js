@@ -16,11 +16,15 @@ function App() {
   const [posts, setPosts] = useState();
   const [isFetching, setIsFetching] = useState(true);
 
-  const fetchData = useCallback(async (queryParameter) => {
-    let fetchParameter;
-    queryParameter
-      ? (fetchParameter = `&query=${queryParameter}`)
-      : (fetchParameter = "");
+  const fetchData = useCallback(async (queryString, queryParameter) => {
+    let fetchParameter = ``;
+    if (queryString) {
+      queryParameter === "query"
+        ? (fetchParameter = `&query=${queryString}`)
+        : queryParameter === "city"
+        ? (fetchParameter = `&content_type=tableLocation&fields.adress[match]=${queryString}`)
+        : (fetchParameter = `&content_type=tableLocation&fields.supplies[match]=${queryString}`);
+    }
 
     try {
       setIsFetching(true);
