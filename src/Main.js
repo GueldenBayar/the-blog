@@ -14,7 +14,7 @@ export default function Main({ posts, coordinates }) {
           <Route path="/post/:id?">
             <FullPost posts={posts}></FullPost>
           </Route>
-          <Route path="/search/:target?">
+          <Route path="/query">
             <SearchResults posts={posts}></SearchResults>
           </Route>
           <Route exact path="/">
