@@ -1,879 +1,611 @@
 {
-    "sys": {
-        "type": "Array"
+  "sys": {
+    "type": "Array"
+  },
+  "total": 8,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "fields": {
+        "createdAt": "2021-06-16T08:36:33.285Z",
+        "updatedAt": "2021-06-16T08:38:48.776Z",
+        "tags": [],
+        "title": "Leopoldplatz",
+        "adress": "U-Bhf Leopoldplatz, hinter der Kirche, neben dem Fußballfeld Leopoldplatz, 13347 Berlin, Deutschland",
+        "location": {
+          "lon": 13.35988,
+          "lat": 52.54751
+        },
+        "condition": "in perfect condition for a nice match with friends",
+        "popularity": "it gets more popular each summer ",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "In the middle of \"Leo\" (the beloved Leopoldplatz) – and yet very green. Both tables are close to the soccerfield. And you can find a third table a bit further at the back. Close by: Café Motte for a short energy kick or Lino’s Barbecue for after the match."
+      }
     },
-    "total": 8,
-    "skip": 0,
-    "limit": 100,
-    "items": [
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "4cecAQTFMhuOFzkQtxHaJX",
-                "type": "Entry",
-                "createdAt": "2021-06-16T08:36:33.285Z",
-                "updatedAt": "2021-06-16T08:38:48.776Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 2,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "Leopoldplatz",
-                "adress": "U-Bhf Leopoldplatz, hinter der Kirche, neben dem Fußballfeld Leopoldplatz, 13347 Berlin, Deutschland",
-                "location": {
-                    "lon": 13.35988,
-                    "lat": 52.54751
-                },
-                "condition": "in perfect condition for a nice match with friends",
-                "popularity": "it gets more popular each summer ",
-                "pictures": [
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "6YZ4yB8fci74DcMl1HXmyh"
-                        }
-                    }
-                ],
-                "description": "In the middle of \"Leo\" (the beloved Leopoldplatz) – and yet very green. Both tables are close to the soccerfield. And you can find a third table a bit further at the back. Close by: Café Motte for a short energy kick or Lino’s Barbecue for after the match."
-            }
+    {
+      "fields": {
+        "createdAt": "2021-06-07T21:03:43.146Z",
+        "updatedAt": "2021-06-16T08:37:24.212Z",
+        "tags": [],
+        "title": "Undiscovered discovered in the heart of Berlin - Wedding",
+        "adress": "Sprengelkiez, 13353 Berlin",
+        "location": {
+          "lon": 13.36042,
+          "lat": 52.54198
         },
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "27fgfuCsLjXILAUC4VndTV",
-                "type": "Entry",
-                "createdAt": "2021-06-07T21:03:43.146Z",
-                "updatedAt": "2021-06-16T08:37:24.212Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 3,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "Undiscovered discovered in the heart of Berlin - Wedding",
-                "adress": "Sprengelkiez, 13353 Berlin",
-                "location": {
-                    "lon": 13.36042,
-                    "lat": 52.54198
-                },
-                "condition": "robust and well kept stone tables",
-                "supplies": "Chips, Beer, Cola, Water my friend, Panini, vegan homemade Falafel, anyyything&& everything",
-                "pictures": [
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "jmd3C4qEGKj4qBg7OJqX7"
-                        }
-                    },
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "1xitquZKKe0OScNiyX2fzr"
-                        }
-                    },
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "43JthEqSoORMqRiHtdALXw"
-                        }
-                    }
-                ],
-                "description": "In case you and your friends need a break from the extensive table tennis session you'll find anything one could wish for in walking distance -  a local brewery, the cozy Korean BBQ or a Falafel Sandwich to go? Or maybe just Chips & Beer from the little Spätkauf nearby."
-            }
+        "condition": "robust and well kept stone tables",
+        "supplies": "Chips, Beer, Cola, Water my friend, Panini, vegan homemade Falafel, anyyything&& everything",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "In case you and your friends need a break from the extensive table tennis session you'll find anything one could wish for in walking distance -  a local brewery, the cozy Korean BBQ or a Falafel Sandwich to go? Or maybe just Chips & Beer from the little Spätkauf nearby."
+      }
+    },
+    {
+      "fields": {
+        "createdAt": "2021-06-08T21:32:42.663Z",
+        "updatedAt": "2021-06-16T08:37:14.809Z",
+        "tags": [],
+        "title": "Cozy yet vibrant",
+        "adress": "13353, Berlin",
+        "condition": "süperb condition, very new and shiny",
+        "popularity": "very popular",
+        "supplies": "Coffee shop, Falafel Dream 2010, Edeka",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "At this location which is very lively, one will notice there is even more to get going than only tabletennis. Maybe if you find yourself waiting for your turn at the TableTennisTable you can check out the amazing food spots around or join the boccia game right beside.\nAnd even more to discover: A fully equipped playground which is tempting to try even for adults, with a very cool trampolin and different climbing frames. Feeling lazy? The semi big meadow which is sourrounded by a racetrack for runners, is inviting to lay down and watch the clouds pass by. (or just stay home at your code and try to understand the meaning of life)"
+      }
+    },
+    {
+      "fields": {
+        "tags": [],
+        "createdAt": "2021-06-08T06:51:22.617Z",
+        "updatedAt": "2021-06-09T09:25:44.170Z",
+        "title": "Dead bones Ping Ping",
+        "adress": "Knochenpark, Leipzig",
+        "location": {
+          "lon": 12.336227090198726,
+          "lat": 51.332447278053856
         },
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "1vwmedWxOzuM0JIl9lBtOp",
-                "type": "Entry",
-                "createdAt": "2021-06-08T21:32:42.663Z",
-                "updatedAt": "2021-06-16T08:37:14.809Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 2,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "Cozy yet vibrant",
-                "adress": "13353, Berlin",
-                "condition": "süperb condition, very new and shiny",
-                "popularity": "very popular",
-                "supplies": "Coffee shop, Falafel Dream 2010, Edeka",
-                "pictures": [
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "5GWzJLmE9TR7cCoETTzvO0"
-                        }
-                    }
-                ],
-                "description": "At this location which is very lively, one will notice there is even more to get going than only tabletennis. Maybe if you find yourself waiting for your turn at the TableTennisTable you can check out the amazing food spots around or join the boccia game right beside.\nAnd even more to discover: A fully equipped playground which is tempting to try even for adults, with a very cool trampolin and different climbing frames. Feeling lazy? The semi big meadow which is sourrounded by a racetrack for runners, is inviting to lay down and watch the clouds pass by. (or just stay home at your code and try to understand the meaning of life)"
-            }
+        "condition": "Robust stone tables, fairly mint condition",
+        "popularity": "Extremely popular",
+        "supplies": "Vietnamese food, Hot dogs, ecological wholesales store nearby - Karl-Heine-Street is a snack paradise",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "Three tables only recently put up, and in heavy demand by the local ping pong community due to their supreme location at a sheltered park close to Karl-Heine-Street. Pingpong some balls and then grab a beer, some snacks and enjoy the easy living on Karl-Heine-Street. "
+      }
+    },
+    {
+      "fields": {
+        "tags": [],
+        "createdAt": "2021-06-07T17:28:44.867Z",
+        "updatedAt": "2021-06-09T09:25:22.641Z",
+        "title": "HalleTable",
+        "location": {
+          "lon": 11.97079,
+          "lat": 51.48822
         },
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "5bosYBGmndnDIoR1wCVFY2",
-                "type": "Entry",
-                "createdAt": "2021-06-08T06:51:22.617Z",
-                "updatedAt": "2021-06-09T09:25:44.170Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 2,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "Dead bones Ping Ping",
-                "adress": "Knochenpark, Leipzig",
-                "location": {
-                    "lon": 12.336227090198726,
-                    "lat": 51.332447278053856
-                },
-                "condition": "Robust stone tables, fairly mint condition",
-                "popularity": "Extremely popular",
-                "supplies": "Vietnamese food, Hot dogs, ecological wholesales store nearby - Karl-Heine-Street is a snack paradise",
-                "description": "Three tables only recently put up, and in heavy demand by the local ping pong community due to their supreme location at a sheltered park close to Karl-Heine-Street. Pingpong some balls and then grab a beer, some snacks and enjoy the easy living on Karl-Heine-Street. "
-            }
+        "condition": "A most beautyfull table in the middle of a green area with many dogs who love playing with small white table tennis balls",
+        "popularity": "Normal",
+        "supplies": "Beer and Pommes",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "A most beautyfull table in the middle of a green area with many dogs who love playing with small white table tennis balls"
+      }
+    },
+    {
+      "fields": {
+        "tags": [],
+        "createdAt": "2021-06-08T13:55:26.704Z",
+        "updatedAt": "2021-06-08T13:57:47.435Z",
+        "title": "Into the blue",
+        "adress": "Schanzenstraße, 01097 Dresden, Deutschland",
+        "location": {
+          "lon": 13.750218890630212,
+          "lat": 51.076532148412525
         },
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "NJYFYHBNuAkx25t7R7unz",
-                "type": "Entry",
-                "createdAt": "2021-06-07T17:28:44.867Z",
-                "updatedAt": "2021-06-09T09:25:22.641Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 3,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "HalleTable",
-                "location": {
-                    "lon": 11.97079,
-                    "lat": 51.48822
-                },
-                "condition": "A most beautyfull table in the middle of a green area with many dogs who love playing with small white table tennis balls",
-                "popularity": "Normal",
-                "supplies": "Beer and Pommes",
-                "pictures": [
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "5dlDBw4RLyuqerYvXNGqfA"
-                        }
-                    }
-                ],
-                "description": "A most beautyfull table in the middle of a green area with many dogs who love playing with small white table tennis balls"
-            }
+        "condition": "Two stone tables with metal-net in good condition.",
+        "popularity": "Highly frequented.",
+        "supplies": "Vegan Diner, Café in walking distance down the road. Visited by the ice-cream van every thursday at 4pm.",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "Another famous spot in Dresden-Neustadt is the court on the playground at Schanzenstraße. The attitude of the average visitor is directly proportional to the time of day, as louder kids are allowed to stay out for longer. Although at first glance nothing seperates this POI from other places where you can smash a ball from one end of a table to the other, this one comes with a twist. Because dealing with all the troules you encounter by playing outside in the first place according to the designer is not enough of a challenge for the average ping-pong enthusiast, the decision was made to combine a slippery blue floor coating with debry from the nearby sandbox. So even the players most dedicated to the game find themselves on the edge of the nearest emergency room.\n\nWell worth a journey!"
+      }
+    },
+    {
+      "fields": {
+        "createdAt": "2021-06-08T13:29:08.418Z",
+        "updatedAt": "2021-06-08T13:29:51.213Z",
+        "tags": [],
+        "title": "Classic Table in the Park",
+        "adress": "Tannenstraße 21, 01097 Dresden, Deutschland",
+        "location": {
+          "lon": 13.757332037048332,
+          "lat": 51.07200582839006
         },
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "4ojUr6o07eU25A5OkFt5EH",
-                "type": "Entry",
-                "createdAt": "2021-06-08T13:55:26.704Z",
-                "updatedAt": "2021-06-08T13:57:47.435Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 2,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "Into the blue",
-                "adress": "Schanzenstraße, 01097 Dresden, Deutschland",
-                "location": {
-                    "lon": 13.750218890630212,
-                    "lat": 51.076532148412525
-                },
-                "condition": "Two stone tables with metal-net in good condition.",
-                "popularity": "Highly frequented.",
-                "supplies": "Vegan Diner, Café in walking distance down the road. Visited by the ice-cream van every thursday at 4pm.",
-                "pictures": [
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "7dfg3hPbkEC80WlBbZOqHN"
-                        }
-                    }
-                ],
-                "description": "Another famous spot in Dresden-Neustadt is the court on the playground at Schanzenstraße. The attitude of the average visitor is directly proportional to the time of day, as louder kids are allowed to stay out for longer. Although at first glance nothing seperates this POI from other places where you can smash a ball from one end of a table to the other, this one comes with a twist. Because dealing with all the troules you encounter by playing outside in the first place according to the designer is not enough of a challenge for the average ping-pong enthusiast, the decision was made to combine a slippery blue floor coating with debry from the nearby sandbox. So even the players most dedicated to the game find themselves on the edge of the nearest emergency room.\n\nWell worth a journey!"
-            }
+        "condition": "2 stone tables in reasonable condition with the trusty metal-net.",
+        "popularity": "Heavily frequented. ",
+        "supplies": "Domino's, ice-cream-shop, open-late-shop in walking distance.",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "Located near the heart of Dresdens youth culture the Alaunpark with two playgrounds  and its meadows is suitable for families as well as the regular binge-drinking conglomerate of thugs.\nThe off-side table-tennis court with two tables that are almost level offer the opportunity to take a break from every-day life."
+      }
+    },
+    {
+      "fields": {
+        "tags": [],
+        "createdAt": "2021-06-07T15:49:49.533Z",
+        "updatedAt": "2021-06-07T15:49:49.533Z",
+        "title": "The table am Rewe",
+        "location": {
+          "lon": 12.37307,
+          "lat": 51.33969
         },
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "56AL0475mmuIjeih1XtgJm",
-                "type": "Entry",
-                "createdAt": "2021-06-08T13:29:08.418Z",
-                "updatedAt": "2021-06-08T13:29:51.213Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 2,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "Classic Table in the Park",
-                "adress": "Tannenstraße 21, 01097 Dresden, Deutschland",
-                "location": {
-                    "lon": 13.757332037048332,
-                    "lat": 51.07200582839006
-                },
-                "condition": "2 stone tables in reasonable condition with the trusty metal-net.",
-                "popularity": "Heavily frequented. ",
-                "supplies": "Domino's, ice-cream-shop, open-late-shop in walking distance.",
-                "pictures": [
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "4cI1eRic4cebrC2QShJpHu"
-                        }
-                    },
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "6boTN0Q1ka6ZzQTnK3sPpa"
-                        }
-                    }
-                ],
-                "description": "Located near the heart of Dresdens youth culture the Alaunpark with two playgrounds  and its meadows is suitable for families as well as the regular binge-drinking conglomerate of thugs.\nThe off-side table-tennis court with two tables that are almost level offer the opportunity to take a break from every-day life."
-            }
-        },
-        {
-            "metadata": {
-                "tags": []
-            },
-            "sys": {
-                "space": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Space",
-                        "id": "tt8h7hqmyhxy"
-                    }
-                },
-                "id": "5ZnQt2Rq0aIFdhIpzxS7VE",
-                "type": "Entry",
-                "createdAt": "2021-06-07T15:49:49.533Z",
-                "updatedAt": "2021-06-07T15:49:49.533Z",
-                "environment": {
-                    "sys": {
-                        "id": "master",
-                        "type": "Link",
-                        "linkType": "Environment"
-                    }
-                },
-                "revision": 1,
-                "contentType": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "ContentType",
-                        "id": "tableLocation"
-                    }
-                },
-                "locale": "en-US"
-            },
-            "fields": {
-                "title": "The table am Rewe",
-                "location": {
-                    "lon": 12.37307,
-                    "lat": 51.33969
-                },
-                "condition": "Stone metal with a lot of holes and some nice tags",
-                "supplies": "Fam Thrat Pham nearby",
-                "pictures": [
-                    {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Asset",
-                            "id": "4TyDu7SpB2psrq3wQZKSaM"
-                        }
-                    }
-                ],
-                "description": "This is a nice platte in Leipzig."
-            }
-        }
-    ],
-    "includes": {
-        "Asset": [
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "1xitquZKKe0OScNiyX2fzr",
-                    "type": "Asset",
-                    "createdAt": "2021-06-07T21:05:08.307Z",
-                    "updatedAt": "2021-06-07T21:05:08.307Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "Sprengelkiez-Project-Strasse-770x514",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg",
-                        "details": {
-                            "size": 141495,
-                            "image": {
-                                "width": 770,
-                                "height": 514
-                            }
-                        },
-                        "fileName": "Sprengelkiez-Project-Strasse-770x514.jpg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "43JthEqSoORMqRiHtdALXw",
-                    "type": "Asset",
-                    "createdAt": "2021-06-14T19:57:27.379Z",
-                    "updatedAt": "2021-06-14T19:57:27.379Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "a table in wedding",
-                    "description": "this is a table for playing tableTennis",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/43JthEqSoORMqRiHtdALXw/b651612df4bba95ce1b55cfcb37680ca/tischtennis_tisch.jpeg",
-                        "details": {
-                            "size": 12865,
-                            "image": {
-                                "width": 275,
-                                "height": 183
-                            }
-                        },
-                        "fileName": "tischtennis tisch.jpeg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "4TyDu7SpB2psrq3wQZKSaM",
-                    "type": "Asset",
-                    "createdAt": "2021-06-07T15:48:38.949Z",
-                    "updatedAt": "2021-06-07T15:48:38.949Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "DiePlatte",
-                    "description": "Die platte ",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/4TyDu7SpB2psrq3wQZKSaM/a90239504d1936b7f338e055a335f450/csm_Karl-Heine-Platz_Spielhaus_a9bf38f896.jpg",
-                        "details": {
-                            "size": 138045,
-                            "image": {
-                                "width": 600,
-                                "height": 450
-                            }
-                        },
-                        "fileName": "csm_Karl-Heine-Platz_Spielhaus_a9bf38f896.jpg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "4cI1eRic4cebrC2QShJpHu",
-                    "type": "Asset",
-                    "createdAt": "2021-06-08T13:19:56.430Z",
-                    "updatedAt": "2021-06-08T13:30:25.740Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 2,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "ImageAlaunpark2",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/4cI1eRic4cebrC2QShJpHu/6a5a8b10f731975476448e264953e073/wky8c3e00tll1mtul3mu8j4tp9lk8n67.jpg",
-                        "details": {
-                            "size": 98794,
-                            "image": {
-                                "width": 954,
-                                "height": 636
-                            }
-                        },
-                        "fileName": "wky8c3e00tll1mtul3mu8j4tp9lk8n67.jpg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "5GWzJLmE9TR7cCoETTzvO0",
-                    "type": "Asset",
-                    "createdAt": "2021-06-14T19:59:50.707Z",
-                    "updatedAt": "2021-06-14T19:59:50.707Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "alter tisch",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/5GWzJLmE9TR7cCoETTzvO0/199b3ebd5163e731a39e76905aa92b1a/alter_tisch_wedding.jpeg",
-                        "details": {
-                            "size": 521546,
-                            "image": {
-                                "width": 1000,
-                                "height": 681
-                            }
-                        },
-                        "fileName": "alter tisch wedding.jpeg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "5dlDBw4RLyuqerYvXNGqfA",
-                    "type": "Asset",
-                    "createdAt": "2021-06-07T17:46:14.874Z",
-                    "updatedAt": "2021-06-07T17:46:14.874Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "tennistable halle",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/5dlDBw4RLyuqerYvXNGqfA/ae0bfe11d27fab3413baa2ed0c4bd04b/tabletennispark.jpg",
-                        "details": {
-                            "size": 56531,
-                            "image": {
-                                "width": 500,
-                                "height": 281
-                            }
-                        },
-                        "fileName": "tabletennispark.jpg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "6YZ4yB8fci74DcMl1HXmyh",
-                    "type": "Asset",
-                    "createdAt": "2021-06-14T20:04:33.223Z",
-                    "updatedAt": "2021-06-14T20:04:33.223Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "leoleo",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/6YZ4yB8fci74DcMl1HXmyh/2e9bb0fc5921db07f5ca49676dc9e367/leoleo.png",
-                        "details": {
-                            "size": 1589990,
-                            "image": {
-                                "width": 1000,
-                                "height": 642
-                            }
-                        },
-                        "fileName": "leoleo.png",
-                        "contentType": "image/png"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "6boTN0Q1ka6ZzQTnK3sPpa",
-                    "type": "Asset",
-                    "createdAt": "2021-06-08T13:20:46.947Z",
-                    "updatedAt": "2021-06-08T13:20:46.947Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "ImageAlaunPark1",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/6boTN0Q1ka6ZzQTnK3sPpa/29d225a038dd89d258597433e2736848/vs3vo00rb6gk1m4d9qbd0cre8scuyplj.jpg",
-                        "details": {
-                            "size": 98054,
-                            "image": {
-                                "width": 954,
-                                "height": 636
-                            }
-                        },
-                        "fileName": "vs3vo00rb6gk1m4d9qbd0cre8scuyplj.jpg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "7dfg3hPbkEC80WlBbZOqHN",
-                    "type": "Asset",
-                    "createdAt": "2021-06-08T13:55:22.012Z",
-                    "updatedAt": "2021-06-08T13:55:22.012Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "ImageSchanzenstrasse1",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/7dfg3hPbkEC80WlBbZOqHN/890ec7f5331d3f8a52f5ce53ef6763cb/73801460_KjSfOqWaOsO8YfYBsHDC8LiSqhAQq8CXuQQgHwhfVUQ.jpg",
-                        "details": {
-                            "size": 122651,
-                            "image": {
-                                "width": 960,
-                                "height": 540
-                            }
-                        },
-                        "fileName": "73801460_KjSfOqWaOsO8YfYBsHDC8LiSqhAQq8CXuQQgHwhfVUQ.jpg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            },
-            {
-                "metadata": {
-                    "tags": []
-                },
-                "sys": {
-                    "space": {
-                        "sys": {
-                            "type": "Link",
-                            "linkType": "Space",
-                            "id": "tt8h7hqmyhxy"
-                        }
-                    },
-                    "id": "jmd3C4qEGKj4qBg7OJqX7",
-                    "type": "Asset",
-                    "createdAt": "2021-06-07T21:04:43.396Z",
-                    "updatedAt": "2021-06-07T21:04:43.396Z",
-                    "environment": {
-                        "sys": {
-                            "id": "master",
-                            "type": "Link",
-                            "linkType": "Environment"
-                        }
-                    },
-                    "revision": 1,
-                    "locale": "en-US"
-                },
-                "fields": {
-                    "title": "sparplatz tischtennis",
-                    "file": {
-                        "url": "//images.ctfassets.net/tt8h7hqmyhxy/jmd3C4qEGKj4qBg7OJqX7/b0e9aec66b427f62f5612c94cbaae75c/sparplatz_tischtennis.jpg",
-                        "details": {
-                            "size": 57455,
-                            "image": {
-                                "width": 640,
-                                "height": 480
-                            }
-                        },
-                        "fileName": "sparplatz tischtennis.jpg",
-                        "contentType": "image/jpeg"
-                    }
-                }
-            }
-        ]
+        "condition": "Stone metal with a lot of holes and some nice tags",
+        "supplies": "Fam Thrat Pham nearby",
+        "pictures": [
+          {
+            "description": "",
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg"
+          }
+        ],
+        "description": "This is a nice platte in Leipzig."
+      }
     }
+  ],
+  "includes": {
+    "Asset": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "1xitquZKKe0OScNiyX2fzr",
+          "type": "Asset",
+          "createdAt": "2021-06-07T21:05:08.307Z",
+          "updatedAt": "2021-06-07T21:05:08.307Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Sprengelkiez-Project-Strasse-770x514",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/1xitquZKKe0OScNiyX2fzr/a23230e375d82b007052c6cd9111fb9c/Sprengelkiez-Project-Strasse-770x514.jpg",
+            "details": {
+              "size": 141495,
+              "image": {
+                "width": 770,
+                "height": 514
+              }
+            },
+            "fileName": "Sprengelkiez-Project-Strasse-770x514.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "43JthEqSoORMqRiHtdALXw",
+          "type": "Asset",
+          "createdAt": "2021-06-14T19:57:27.379Z",
+          "updatedAt": "2021-06-14T19:57:27.379Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "a table in wedding",
+          "description": "this is a table for playing tableTennis",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/43JthEqSoORMqRiHtdALXw/b651612df4bba95ce1b55cfcb37680ca/tischtennis_tisch.jpeg",
+            "details": {
+              "size": 12865,
+              "image": {
+                "width": 275,
+                "height": 183
+              }
+            },
+            "fileName": "tischtennis tisch.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "4TyDu7SpB2psrq3wQZKSaM",
+          "type": "Asset",
+          "createdAt": "2021-06-07T15:48:38.949Z",
+          "updatedAt": "2021-06-07T15:48:38.949Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "DiePlatte",
+          "description": "Die platte ",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/4TyDu7SpB2psrq3wQZKSaM/a90239504d1936b7f338e055a335f450/csm_Karl-Heine-Platz_Spielhaus_a9bf38f896.jpg",
+            "details": {
+              "size": 138045,
+              "image": {
+                "width": 600,
+                "height": 450
+              }
+            },
+            "fileName": "csm_Karl-Heine-Platz_Spielhaus_a9bf38f896.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "4cI1eRic4cebrC2QShJpHu",
+          "type": "Asset",
+          "createdAt": "2021-06-08T13:19:56.430Z",
+          "updatedAt": "2021-06-08T13:30:25.740Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 2,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "ImageAlaunpark2",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/4cI1eRic4cebrC2QShJpHu/6a5a8b10f731975476448e264953e073/wky8c3e00tll1mtul3mu8j4tp9lk8n67.jpg",
+            "details": {
+              "size": 98794,
+              "image": {
+                "width": 954,
+                "height": 636
+              }
+            },
+            "fileName": "wky8c3e00tll1mtul3mu8j4tp9lk8n67.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "5GWzJLmE9TR7cCoETTzvO0",
+          "type": "Asset",
+          "createdAt": "2021-06-14T19:59:50.707Z",
+          "updatedAt": "2021-06-14T19:59:50.707Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "alter tisch",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/5GWzJLmE9TR7cCoETTzvO0/199b3ebd5163e731a39e76905aa92b1a/alter_tisch_wedding.jpeg",
+            "details": {
+              "size": 521546,
+              "image": {
+                "width": 1000,
+                "height": 681
+              }
+            },
+            "fileName": "alter tisch wedding.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "5dlDBw4RLyuqerYvXNGqfA",
+          "type": "Asset",
+          "createdAt": "2021-06-07T17:46:14.874Z",
+          "updatedAt": "2021-06-07T17:46:14.874Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "tennistable halle",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/5dlDBw4RLyuqerYvXNGqfA/ae0bfe11d27fab3413baa2ed0c4bd04b/tabletennispark.jpg",
+            "details": {
+              "size": 56531,
+              "image": {
+                "width": 500,
+                "height": 281
+              }
+            },
+            "fileName": "tabletennispark.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "6YZ4yB8fci74DcMl1HXmyh",
+          "type": "Asset",
+          "createdAt": "2021-06-14T20:04:33.223Z",
+          "updatedAt": "2021-06-14T20:04:33.223Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "leoleo",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/6YZ4yB8fci74DcMl1HXmyh/2e9bb0fc5921db07f5ca49676dc9e367/leoleo.png",
+            "details": {
+              "size": 1589990,
+              "image": {
+                "width": 1000,
+                "height": 642
+              }
+            },
+            "fileName": "leoleo.png",
+            "contentType": "image/png"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "6boTN0Q1ka6ZzQTnK3sPpa",
+          "type": "Asset",
+          "createdAt": "2021-06-08T13:20:46.947Z",
+          "updatedAt": "2021-06-08T13:20:46.947Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "ImageAlaunPark1",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/6boTN0Q1ka6ZzQTnK3sPpa/29d225a038dd89d258597433e2736848/vs3vo00rb6gk1m4d9qbd0cre8scuyplj.jpg",
+            "details": {
+              "size": 98054,
+              "image": {
+                "width": 954,
+                "height": 636
+              }
+            },
+            "fileName": "vs3vo00rb6gk1m4d9qbd0cre8scuyplj.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "7dfg3hPbkEC80WlBbZOqHN",
+          "type": "Asset",
+          "createdAt": "2021-06-08T13:55:22.012Z",
+          "updatedAt": "2021-06-08T13:55:22.012Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "ImageSchanzenstrasse1",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/7dfg3hPbkEC80WlBbZOqHN/890ec7f5331d3f8a52f5ce53ef6763cb/73801460_KjSfOqWaOsO8YfYBsHDC8LiSqhAQq8CXuQQgHwhfVUQ.jpg",
+            "details": {
+              "size": 122651,
+              "image": {
+                "width": 960,
+                "height": 540
+              }
+            },
+            "fileName": "73801460_KjSfOqWaOsO8YfYBsHDC8LiSqhAQq8CXuQQgHwhfVUQ.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "tt8h7hqmyhxy"
+            }
+          },
+          "id": "jmd3C4qEGKj4qBg7OJqX7",
+          "type": "Asset",
+          "createdAt": "2021-06-07T21:04:43.396Z",
+          "updatedAt": "2021-06-07T21:04:43.396Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "sparplatz tischtennis",
+          "file": {
+            "url": "//images.ctfassets.net/tt8h7hqmyhxy/jmd3C4qEGKj4qBg7OJqX7/b0e9aec66b427f62f5612c94cbaae75c/sparplatz_tischtennis.jpg",
+            "details": {
+              "size": 57455,
+              "image": {
+                "width": 640,
+                "height": 480
+              }
+            },
+            "fileName": "sparplatz tischtennis.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    ]
+  }
 }
