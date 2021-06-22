@@ -1,9 +1,9 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { useState, useEffect, useCallback } from "react";
-import { Link, useRouteMatch } from "react-router-dom";
+import { useRouteMatch } from "react-router-dom";
 import toast from "toast-me";
 import axios from "axios";
-import { render } from "@testing-library/react";
+// import { render } from "@testing-library/react";
 
 const Map = ({ posts, searchQuery }) => {
   const [mapCenter, setMapCenter] = useState();
@@ -54,8 +54,8 @@ const Map = ({ posts, searchQuery }) => {
   const getPostLocation = useCallback(
     (posts) => {
       posts.forEach((post) => {
-        if (post.fields.location?.lat) {
-          setMapCenter([post.fields.location.lat, post.fields.location.lon]);
+        if (post.latitude) {
+          setMapCenter([post.latitude, post.longitude]);
           setZoom(16);
         } else {
           getCurrentLocation();
@@ -69,13 +69,10 @@ const Map = ({ posts, searchQuery }) => {
   // render list of markers
   const renderMarkers = (posts) => {
     return posts.map((post) => {
-      if (post.fields?.location) {
+      if (post.location) {
         const key = post.sys.id;
-        const coordinates = [
-          post.fields.location.lat,
-          post.fields.location.lon,
-        ];
-        const popUpText = post.fields.title;
+        const coordinates = [post.latitude, post.longitude];
+        const popUpText = post.title;
         return (
           <Marker key={key} position={coordinates}>
             <Popup>{popUpText}</Popup>

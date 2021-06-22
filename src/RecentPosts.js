@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import Map from "./Map";
-import SummarizedPost from "./SummarizedPost";
-import { Link } from "react-router-dom";
+// import SummarizedPost from "./SummarizedPost";
+// import { Link } from "react-router-dom";
 import CardPost from "./CardPost";
 
 export default function RecentPosts({ posts }) {
@@ -10,7 +10,7 @@ export default function RecentPosts({ posts }) {
   let cPosts = [];
   //maps over posts and puts the date and time of update in the array
   cPosts = posts.map((post) => {
-    return post.sys.updatedAt;
+    return post.updatedAt;
   });
   //console.log(cPosts);
   //return of the component
@@ -22,7 +22,7 @@ export default function RecentPosts({ posts }) {
                     all dates in the array cPosts, if later add a 1 to the place
                     if place is lower 5 (1-4 newesrt entries), cardPost is returned */}
           {posts.map((post) => {
-            let d1 = post.sys.updatedAt;
+            let d1 = post.updatedAt;
             let place = 1;
             cPosts.map((cPost) => {
               if (d1 > cPost) {
@@ -34,11 +34,11 @@ export default function RecentPosts({ posts }) {
               return (
                 <>
                   <CardPost
-                    desc={post.fields.description}
-                    title={post.fields.title}
-                    adress={post.fields.adress}
-                    supplies={post.fields.supplies}
-                    ids={post.sys.id}
+                    desc={post.description}
+                    title={post.title}
+                    adress={post.adress}
+                    supplies={post.supplies}
+                    ids={post.id}
                   />
                 </>
               );

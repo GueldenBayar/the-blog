@@ -32,6 +32,7 @@ function CardPost(props) {
             <img
               className="circle-img"
               src="https://www.liveabout.com/thmb/wvVhsu7tXYrZV664uVEPSc0b-44=/1413x1413/smart/filters:no_upscale()/114996552-57bb0f545f9b58cdfde2205e.jpg"
+              alt="logo"
             />
           </div>
         </div>

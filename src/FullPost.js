@@ -4,7 +4,7 @@ import "./FullPost.css";
 
 export default function FullPost({ posts }) {
   const { id } = useParams();
-  const post = posts.filter((post) => post.sys.id === id);
+  const post = posts.filter((post) => Number(post.id) === Number(id));
   console.log(post);
 
   return (
@@ -17,7 +17,6 @@ export default function FullPost({ posts }) {
               color: "white",
               fontStyle: "bold",
               fontWeight: "bold",
-              fontStyle: "italic",
               fontSize: "xx-large",
               textAlign: "center",
             }}
@@ -25,20 +24,21 @@ export default function FullPost({ posts }) {
             <img
               className="circle-img"
               src="https://www.liveabout.com/thmb/wvVhsu7tXYrZV664uVEPSc0b-44=/1413x1413/smart/filters:no_upscale()/114996552-57bb0f545f9b58cdfde2205e.jpg"
+              alt="logo"
             />
-            <p>{post[0].fields.title}</p>
+            <p>{post[0].title}</p>
           </div>
           <div
             className="darkGreen"
             style={{ textDecoration: "none", color: "white" }}
           >
             <p>
-              Address: <br /> {post[0].fields.adress}
+              Address: <br /> {post[0].adress}
             </p>
           </div>
           <div className="lightGreen">
             <p>
-              Popularity: <br /> {post[0].fields.popularity}
+              Popularity: <br /> {post[0].popularity}
             </p>
           </div>
           <div
@@ -46,12 +46,12 @@ export default function FullPost({ posts }) {
             style={{ textDecoration: "none", color: "white" }}
           >
             <p>
-              Field conditions: <br /> {post[0].fields.conditions} not known
+              Field conditions: <br /> {post[0].conditions} not known
             </p>
           </div>
           <div className="lightGreen">
             <p>
-              Food supply: <br /> {post[0].fields.supplies}
+              Food supply: <br /> {post[0].supplies}
             </p>
           </div>
           <div
@@ -59,7 +59,7 @@ export default function FullPost({ posts }) {
             style={{ textDecoration: "none", color: "white" }}
           >
             <p>
-              Description: <br /> {post[0].fields.description}
+              Description: <br /> {post[0].description}
             </p>
           </div>
         </div>

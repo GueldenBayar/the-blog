@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 export default function Navbar({ fetchData }) {
   const [searchText, setSearchText] = useState();
   const [selectedQueryOption, setSelectedQueryOption] = useState("Show all");
-  let history = useHistory();
+  // let history = useHistory();
   const handleChange = (e) => {
     e.preventDefault();
     console.log(e.target.value);
@@ -25,9 +25,9 @@ export default function Navbar({ fetchData }) {
   };
   return (
     <header className="row">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container-custom">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-container-custom">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             PingPong Locator
           </a>
 
