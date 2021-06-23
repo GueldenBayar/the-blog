@@ -79,6 +79,7 @@ const Map = ({ posts, searchQuery }) => {
           </Marker>
         );
       }
+      return null;
     });
   };
 

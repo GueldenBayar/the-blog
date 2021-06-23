@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import RecentPosts from "./RecentPosts";
 import FullPost from "./FullPost";
 import SearchResults from "./SearchResults";
+import SubmitPost from "./SubmitPost";
 
 export default function Main({ posts, coordinates }) {
   return (
@@ -15,6 +16,9 @@ export default function Main({ posts, coordinates }) {
         </Route>
         <Route path="/search/:target?">
           <SearchResults posts={posts}></SearchResults>
+        </Route>
+        <Route path="/submit">
+          <SubmitPost></SubmitPost>
         </Route>
         <Route exact path="/">
           <RecentPosts posts={posts}></RecentPosts>

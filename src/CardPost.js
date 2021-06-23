@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function CardPost(props) {
   const subS = props.desc;
-  const subS1 = subS.substr(0, 200);
-  console.log(subS1);
+  const subS1 = subS.substr(0, 2);
+  console.log(subS);
 
   return (
     <div className="cardPost">
