@@ -24,43 +24,51 @@ export default function Navbar({ fetchData }) {
     //history.push(`/${e.target.options.value}`);
   };
   return (
-    <header className="row">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-container-custom">
-        <div className="row">
-          <div className="col-auto">
-            <a className="navbar-brand" href="#">
-              PingPong Locator
-            </a>
-            <form className="d-flex container-fluid" onSubmit={handleSubmit}>
-              <input
-                name="searchInput"
-                className="form-control me-2 col-auto"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-                onChange={handleChange}
-                value={searchText}
-              />
-              <select
-                name="options"
-                id="options"
-                className="col-auto"
-                onChange={handleSelect}
-                value={selectedQueryOption}
+    <header className="">
+      <nav className="row justify-content-between navbar navbar-expand-lg navbar-light bg-light ">
+        <div className="col-auto">
+          <Link className="navbar-brand m-3" to="/">
+            PingPong Locator
+          </Link>
+        </div>
+
+        <form className="col-6 " onSubmit={handleSubmit}>
+          <div className="input-group m-3 col-auto">
+            <input
+              name="searchInput"
+              className="col-auto border-secondary form-control "
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              onChange={handleChange}
+              value={searchText}
+            />
+
+            <select
+              name="options"
+              id="options"
+              className="custom-select"
+              onChange={handleSelect}
+              value={selectedQueryOption}
+            >
+              <option selected>Show all</option>
+              <option value="city">City</option>
+              <option value="snacks">Snacks</option>
+            </select>
+            <div className="">
+              <button
+                className="btn btn-outline-secondary col-auto"
+                type="submit"
               >
-                <option value="query">Show all</option>
-                <option value="city">City</option>
-                <option value="snacks">Snacks</option>
-              </select>
-              <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </div>
           </div>
-        </div>
+        </form>
+
         <div className="col-auto">
           <button
-            className="btn btn-primary"
+            className="btn btn-outline-secondary "
             onClick={() => history.push("/submit")}
           >
             Add
