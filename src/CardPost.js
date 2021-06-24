@@ -21,7 +21,7 @@ function CardPost(props) {
             </Link>
           </p>
         </div>
-        <div clasName="bottom row">
+        <div className="bottom row">
           <div className="column">
             <p className="info">{props.adress}</p>
           </div>
