@@ -46,7 +46,7 @@ export default function FullPost({ posts }) {
             style={{ textDecoration: "none", color: "white" }}
           >
             <p>
-              Field conditions: <br /> {post[0].conditions} not known
+              Field conditions: <br /> {post[0].condition}
             </p>
           </div>
           <div className="lightGreen">
