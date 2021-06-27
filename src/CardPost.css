@@ -10,11 +10,15 @@
   border-radius: 25px;
   position: relative;
   padding: 10px 10px 10px 20px;
-  background-color: #29bb89;
+  background-color: #35eead;
   margin: 0px 5px 20px 5px;
   box-shadow: 5px 5px 10px rgb(115, 143, 196);
+  transition-duration: 400ms;
 }
-
+.highlight {
+  transition-duration: 200ms;
+  background-color: #29bb89;
+}
 .column1 {
   float: left;
   width: 33.33%;

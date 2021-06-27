@@ -55,7 +55,7 @@ function App() {
 
   //console.log(posts);
   return (
-    <div className="row">
+    <div className="row w-100">
       <Navbar fetchData={fetchData}></Navbar>
       {!isFetching && <Main posts={posts}></Main>}
     </div>
