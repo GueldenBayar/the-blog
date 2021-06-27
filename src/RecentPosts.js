@@ -16,7 +16,7 @@ export default function RecentPosts({ posts }) {
   //return of the component
   return (
     <>
-      <section className="col-5 content-container-custom">
+      <section className="col-5 content-container-custom px-4 mt-5 ms-5 me-3">
         <ul>
           {/* maps over the post, compares the posts update date with 
                     all dates in the array cPosts, if later add a 1 to the place
@@ -47,7 +47,7 @@ export default function RecentPosts({ posts }) {
         {/* // Content: e.g. list of four most recent entries in database */}
         {/* <SummarizedPost/> */}
       </section>
-      <section className="col-7">
+      <section className="col px-4 mt-5 me-5">
         <Map posts={posts}></Map>
       </section>
     </>
