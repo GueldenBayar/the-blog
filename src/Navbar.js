@@ -3,7 +3,8 @@ import { useHistory, Link } from "react-router-dom";
 
 export default function Navbar({ fetchData }) {
   const [searchText, setSearchText] = useState();
-  const [selectedQueryOption, setSelectedQueryOption] = useState("Show all");
+  const [selectedQueryOption, setSelectedQueryOption] = useState("show_all");
+
   let history = useHistory();
   const handleChange = (e) => {
     e.preventDefault();
@@ -59,7 +60,9 @@ export default function Navbar({ fetchData }) {
                 onChange={handleSelect}
                 value={selectedQueryOption}
               >
-                <option selected>Show all</option>
+                <option selected value="show_all">
+                  Show all
+                </option>
                 <option value="city">City</option>
                 <option value="snacks">Snacks</option>
               </select>
