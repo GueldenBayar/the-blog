@@ -1,12 +1,17 @@
 import Map from "./Map";
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import "./FullPost.css";
 
 export default function FullPost({ posts }) {
   const { id } = useParams();
   const post = posts.filter((post) => Number(post.id) === Number(id));
   console.log(post);
+  let history = useHistory();
 
+  const handleEditClick = (e) => {
+    e.preventDefault();
+    history.push(`/edit/${id}`);
+  };
   return (
     <>
       <section className="col-5 content-container-custom">
@@ -62,6 +67,9 @@ export default function FullPost({ posts }) {
               Description: <br /> {post[0].description}
             </p>
           </div>
+          <button className="btn btn-primary" onClick={handleEditClick}>
+            Edit
+          </button>
         </div>
 
         {/* // Content: e.g. list of four most recent entries in database */}

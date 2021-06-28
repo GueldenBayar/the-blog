@@ -12,10 +12,14 @@ function CardPost(props) {
 
   const subS = props.desc;
   let subS1;
-  subS.length >= 200
-    ? (subS1 = subS.substr(0, 200) + `  ...`)
-    : (subS1 = subS.substr(0, subS.length));
-  console.log(subS);
+  if (!subS) {
+    subS1 = "";
+  } else {
+    subS.length >= 200
+      ? (subS1 = subS.substr(0, 200) + `  ...`)
+      : (subS1 = subS.substr(0, subS.length));
+    console.log(subS);
+  }
 
   return (
     <div className={highlightStyle}>

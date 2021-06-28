@@ -1,43 +1,77 @@
 import axios from "axios";
 import { useState } from "react";
-
-export default function SubmitPost() {
+import { useLocation, useParams } from "react-router-dom";
+export default function SubmitPost({ posts }) {
   // tags,title,adress,longitude,latitude,condition,popularity,picturesDescription,picturesUrl,description,supplies
-  const [formValues, setValues] = useState({});
-  // const submitForm = (e) => {
-  //   e.preventDefault();
-  //   const form = e.target;
-  //   const newPost = {
-  //     tags: form.tags.value,
-  //     title: form.title.value,
-  //     adress: form.adress.value,
-  //     longitude: form.longitude.value,
-  //     latitude: form.latitude.value,
-  //     condition: form.condition.value,
-  //     popularity: form.popularity.value,
-  //     picturesDescription: form.picturesDescription.value,
-  //     picturesUrl: form.picturesUrl.value,
-  //     description: form.description.value,
-  //     supplies: form.supplies.value,
-  //   };
+  const { pathname } = useLocation();
+  const { id } = useParams();
+  const [formValues, setValues] = useState();
+
+  if (pathname.includes("edit")) {
+    const postDetails = posts.find((post) => Number(post.id) === Number(id));
+    setValues(postDetails);
+  } else {
+    setValues({});
+  }
+  // console.log(posts);
+
   const handleChange = (e) => {
     e.preventDefault();
     console.log(e.target.id);
 
     setValues({ ...formValues, [e.target.id]: e.target.value });
   };
+
   const submitForm = (e) => {
     e.preventDefault();
     console.log(formValues);
 
-    axios
-      .post("http://localhost:3001/api/locations", formValues)
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    try {
+      const apiCall = async () => {
+        if (pathname.includes("edit")) {
+          const { data } = await axios.put(
+            `http://localhost:3001/api/locations/${id}`,
+            formValues
+          );
+        }
+        if (pathname.includes("/submit")) {
+          const { data } = await axios.post(
+            "http://localhost:3001/api/locations",
+            formValues
+          );
+        }
+      };
+      apiCall();
+    } catch (e) {
+      console.log(e);
+    }
+
+
+    // // here do with data
+    // // let whichMethod ;
+    // // pathname.includes("edit") ? whichMethod = axios
+    // //         .post("http://localhost:3001/api/locations", formValues);
+
+    // // catch block for erros
+    // if (pathname.includes("edit")) {
+    //   axios
+    //     .post("http://localhost:3001/api/locations", formValues)
+    //     .then((response) => {
+    //       console.log(response);
+    //     })
+    //     .catch((error) => {
+    //       console.log(error);
+    //     });
+    // }
+
+    // axios
+    //   .put(`http://localhost:3001/api/locations/${id}`, formValues)
+    //   .then((response) => {
+    //     console.log(response);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
   };
 
   return (
