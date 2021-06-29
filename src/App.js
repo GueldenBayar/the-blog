@@ -34,19 +34,16 @@ function App() {
         );
         setPosts(retrievedData.data);
         setIsFetching(false);
-        console.log(typeof retrievedData.data);
+      } else {
+        const reqBody = { column: selectedQueryOption, query: queryString };
+        const retrievedData = await axios.post(
+          `http://localhost:3001/api/locations/search`,
+          { data: reqBody }
+        );
+        console.log(retrievedData);
+        setPosts(retrievedData.data);
+        setIsFetching(false);
       }
-
-      const queryOptions = ["show_all", "city", "snacks"];
-
-      // if (queryOptions.includes(selectedQueryOption)) {
-      //   const retrievedData = await axios.get(
-      //     `http://localhost:3001/api/locations/posts`
-      //   );
-      //   setPosts(retrievedData.data);
-      //   setIsFetching(false);
-      //   console.log(typeof retrievedData.data);
-      // }
 
       // add body
     } catch (e) {
