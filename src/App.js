@@ -61,6 +61,7 @@ function App() {
     //    console.log(e.message);
     //  }
   }, []);
+
   useEffect(() => {
     fetchData();
   }, [fetchData]);
