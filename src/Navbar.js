@@ -3,7 +3,8 @@ import { useHistory, Link } from "react-router-dom";
 
 export default function Navbar({ fetchData }) {
   const [searchText, setSearchText] = useState();
-  const [selectedQueryOption, setSelectedQueryOption] = useState("Show all");
+  const [selectedQueryOption, setSelectedQueryOption] = useState("adress");
+
   let history = useHistory();
   const handleChange = (e) => {
     e.preventDefault();
@@ -27,9 +28,18 @@ export default function Navbar({ fetchData }) {
     <header className="mt-5 ">
       <nav className="row px-5 justify-content-between navbar navbar-expand-lg navbar-light bg-light ">
         <div className="col-auto">
-          <Link className="navbar-brand m-3" to="/">
+          {/* <Link className="navbar-brand m-3" to="/">
             PingPong Locator
-          </Link>
+          </Link> */}
+          <h3
+            onClick={() => {
+              fetchData();
+              history.push("/");
+            }}
+          >
+            {" "}
+            PingPong Locator
+          </h3>
         </div>
         <div className=" col-auto">
           <button
@@ -59,9 +69,8 @@ export default function Navbar({ fetchData }) {
                 onChange={handleSelect}
                 value={selectedQueryOption}
               >
-                <option selected>Show all</option>
-                <option value="city">City</option>
-                <option value="snacks">Snacks</option>
+                <option value="adress">City</option>
+                <option value="supplies">Snacks</option>
               </select>
 
               <button

@@ -21,16 +21,20 @@ export default function RecentPosts({ posts }) {
           {/* maps over the post, compares the posts update date with 
                     all dates in the array cPosts, if later add a 1 to the place
                     if place is lower 5 (1-4 newesrt entries), cardPost is returned */}
-          {posts.map((post) => {
-            let d1 = post.updatedAt;
-            let place = 1;
-            cPosts.map((cPost) => {
-              if (d1 > cPost) {
-                place++;
-              }
-            });
+          {!posts.length && (
+            <h6>Sorry, your search did not match any results</h6>
+          )}
+          {posts.length &&
+            posts.map((post) => {
+              // let d1 = post.updatedAt;
+              // let place = 1;
+              // cPosts.map((cPost) => {
+              //   if (d1 > cPost) {
+              //     place++;
+              //   }
+              // });
 
-            if (place < 5)
+              // if (place < 20)
               return (
                 <>
                   <CardPost
@@ -42,7 +46,7 @@ export default function RecentPosts({ posts }) {
                   />
                 </>
               );
-          })}
+            })}
         </ul>
         {/* // Content: e.g. list of four most recent entries in database */}
         {/* <SummarizedPost/> */}

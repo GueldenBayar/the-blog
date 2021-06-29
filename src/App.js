@@ -16,7 +16,7 @@ function App() {
   const [posts, setPosts] = useState();
   const [isFetching, setIsFetching] = useState(true);
 
-  const fetchData = useCallback(async (queryString, queryParameter) => {
+  const fetchData = useCallback(async (queryString, selectedQueryOption) => {
     // let fetchParameter = ``;
     // if (queryString) {
     //   queryParameter === "query"
@@ -28,12 +28,24 @@ function App() {
 
     try {
       setIsFetching(true);
-      const retrievedData = await axios.get(
-        `http://localhost:3001/api/locations`
-      );
-      setPosts(retrievedData.data);
-      setIsFetching(false);
-      console.log(typeof retrievedData.data);
+      if (!selectedQueryOption) {
+        const retrievedData = await axios.get(
+          `http://localhost:3001/api/locations/posts`
+        );
+        setPosts(retrievedData.data);
+        setIsFetching(false);
+      } else {
+        const reqBody = { column: selectedQueryOption, query: queryString };
+        const retrievedData = await axios.post(
+          `http://localhost:3001/api/locations/search`,
+          { data: reqBody }
+        );
+        console.log(retrievedData);
+        setPosts(retrievedData.data);
+        setIsFetching(false);
+      }
+
+      // add body
     } catch (e) {
       console.log(e.message);
     }
@@ -49,6 +61,7 @@ function App() {
     //    console.log(e.message);
     //  }
   }, []);
+
   useEffect(() => {
     fetchData();
   }, [fetchData]);

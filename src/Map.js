@@ -54,12 +54,17 @@ const Map = ({ posts, searchQuery }) => {
   const getPostLocation = useCallback(
     (posts) => {
       posts.forEach((post) => {
-        if (post.latitude) {
-          setMapCenter([post.latitude, post.longitude]);
-          setZoom(16);
-        } else {
+        if (
+          !post.latitude ||
+          !post.latitude.length ||
+          !post.longitude ||
+          !post.longitude.length
+        ) {
           getCurrentLocation();
           toast("No coordinates for blog post, showing tables in your area");
+        } else {
+          setMapCenter([post.latitude, post.longitude]);
+          setZoom(16);
         }
       });
     },

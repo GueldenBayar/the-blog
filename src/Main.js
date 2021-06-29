@@ -20,6 +20,9 @@ export default function Main({ posts, coordinates }) {
         <Route path="/submit">
           <SubmitPost></SubmitPost>
         </Route>
+        <Route path="/edit/:id">
+          <SubmitPost posts={posts}></SubmitPost>
+        </Route>
         <Route exact path="/">
           <RecentPosts posts={posts}></RecentPosts>
         </Route>
