@@ -51,9 +51,7 @@ export default function RecentPosts({ posts }) {
         {/* // Content: e.g. list of four most recent entries in database */}
         {/* <SummarizedPost/> */}
       </section>
-      <section className="col px-4 mt-5 me-5">
-        <Map posts={posts}></Map>
-      </section>
+      <Map posts={posts}></Map>
     </>
   );
 }

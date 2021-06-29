@@ -103,7 +103,7 @@ const Map = ({ posts, searchQuery }) => {
   }, [getCurrentLocation, getSearchLocation, getPostLocation]);
 
   return (
-    <div className="container-fluid p-2">
+    <div className="map col px-4 mt-5 me-5">
       {mapCenter && (
         <MapContainer center={mapCenter} zoom={zoom} scrollWheelZoom={false}>
           <TileLayer

@@ -68,9 +68,9 @@ function App() {
 
   //console.log(posts);
   return (
-    <div className="row w-100">
+    <div className="container-fluid">
       <Navbar fetchData={fetchData}></Navbar>
-      {!isFetching && <Main posts={posts}></Main>}
+      {!isFetching && <Main fetchData={fetchData} posts={posts}></Main>}
     </div>
   );
 }
