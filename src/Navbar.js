@@ -25,7 +25,7 @@ export default function Navbar({ fetchData }) {
     //history.push(`/${e.target.options.value}`);
   };
   return (
-    <header className="mt-5 ">
+    <header className="pt-3 ">
       <nav className="row px-5 justify-content-between navbar navbar-expand-lg navbar-light bg-light ">
         <div className="col-auto">
           {/* <Link className="navbar-brand m-3" to="/">

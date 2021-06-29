@@ -5,14 +5,14 @@ import FullPost from "./FullPost";
 import SearchResults from "./SearchResults";
 import SubmitPost from "./SubmitPost";
 
-export default function Main({ posts, coordinates }) {
+export default function Main({ posts, coordinates, fetchData }) {
   return (
-    <main className="row p-5 g-0">
+    <main className=" row  g-0">
       {/* // 2 columns: content view (left screen), map view (right screen) */}
       {/* // Routing: recentPosts view OR post details view OR search results view */}
       <Switch>
         <Route path="/post/:id?">
-          <FullPost posts={posts}></FullPost>
+          <FullPost fetchData={fetchData} posts={posts}></FullPost>
         </Route>
         <Route path="/search/:target?">
           <SearchResults posts={posts}></SearchResults>

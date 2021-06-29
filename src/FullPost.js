@@ -3,7 +3,7 @@ import { useParams, useHistory } from "react-router-dom";
 import "./FullPost.css";
 import axios from "axios";
 import toast from "toast-me";
-export default function FullPost({ posts }) {
+export default function FullPost({ posts, fetchData }) {
   const { id } = useParams();
   const post = posts.filter((post) => Number(post.id) === Number(id));
   console.log(post);
@@ -19,6 +19,7 @@ export default function FullPost({ posts }) {
       .delete(`http://localhost:3001/api/locations/${id}`)
       .then(toast(`Succesfully deleted!`))
       .then(history.push("/"))
+      .then(fetchData())
       .catch((e) => console.log(e));
   };
   return (
