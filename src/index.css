@@ -32,7 +32,8 @@ code {
 
 .content-container-custom {
   height: 85vh;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 /* Works on Firefox */

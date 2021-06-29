@@ -8,17 +8,19 @@
   /* display: flex;
     flex: justify; */
   border-radius: 25px;
-  position: relative;
+  /* position: relative; */
   padding: 10px 10px 10px 20px;
   background-color: #35eead;
   margin: 0px 5px 20px 5px;
   box-shadow: 5px 5px 10px rgb(115, 143, 196);
   transition-duration: 400ms;
 }
-.highlight {
+
+.cardPost:hover {
   transition-duration: 200ms;
   background-color: #29bb89;
 }
+
 .column1 {
   float: left;
   width: 33.33%;
@@ -46,10 +48,11 @@
 }
 
 .circle-img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 7px solid #fff;
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
+  max-width: 100%;
 }
 
 .info {
