@@ -1,7 +1,8 @@
 import Map from "./Map";
 import { useParams, useHistory } from "react-router-dom";
 import "./FullPost.css";
-
+import axios from "axios";
+import toast from "toast-me";
 export default function FullPost({ posts }) {
   const { id } = useParams();
   const post = posts.filter((post) => Number(post.id) === Number(id));
@@ -11,6 +12,14 @@ export default function FullPost({ posts }) {
   const handleEditClick = (e) => {
     e.preventDefault();
     history.push(`/edit/${id}`);
+  };
+  const handleDeleteClick = (e) => {
+    e.preventDefault();
+    axios
+      .delete(`http://localhost:3001/api/locations/${id}`)
+      .then(toast(`Succesfully deleted!`))
+      .then(history.push("/"))
+      .catch((e) => console.log(e));
   };
   return (
     <>
@@ -67,9 +76,20 @@ export default function FullPost({ posts }) {
               Description: <br /> {post[0].description}
             </p>
           </div>
-          <button className="btn btn-primary" onClick={handleEditClick}>
-            Edit
-          </button>
+          <div className="row justify-content-between p-3">
+            <button
+              className="col-auto btn btn-primary"
+              onClick={handleEditClick}
+            >
+              Edit
+            </button>
+            <button
+              className="col-auto btn btn-danger"
+              onClick={handleDeleteClick}
+            >
+              Delete
+            </button>
+          </div>
         </div>
 
         {/* // Content: e.g. list of four most recent entries in database */}
